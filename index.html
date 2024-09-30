@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #0066cc; /* Header background */
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center; /* Center content */
+            align-items: center;
+            flex-direction: column; /* Stack items vertically */
+        }
+        .logo img {
+            height: 150px; /* Adjust height as needed */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #005bb5; /* Navigation background */
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background: #004999;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .article {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .article img.cover {
+            width: 100%;
+            height: auto;
+        }
+        .article h2 {
+            font-size: 1.5em;
+            margin: 10px 15px;
+        }
+        .article p {
+            font-size: 1em;
+            color: #666;
+            margin: 0 15px 15px;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            .article h2 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/logo.png" alt="Logo"> <!-- Logo space -->
+        </div>
+        
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Content Creation.html">Content Creation</a>
+        <a href="SEMrush.html">SEMrush</a>
+        <a href="tools.html">Tools</a>
+        <a href="#">AI</a>
+        <a href="#">Growth</a>
+    </nav>
+    <div class="container">
+        <div class="article">
+            <img class="cover" src="cover1.jpg" alt="Cover 1">
+            <h2>Article Title 1</h2>
+            <p>Brief description of article 1...</p>
+        </div>
+        <div class="article">
+            <img class="cover" src="cover2.jpg" alt="Cover 2">
+            <h2>Article Title 2</h2>
+            <p>Brief description of article 2...</p>
+        </div>
+        <div class="article">
+            <img class="cover" src="cover3.jpg" alt="Cover 3">
+            <h2>Article Title 3</h2>
+            <p>Brief description of article 3...</p>
+        </div>
+        <div class="article">
+            <img class="cover" src="cover4.jpg" alt="Cover 4">
+            <h2>Article Title 4</h2>
+            <p>Brief description of article 4...</p>
+        </div>
+        <div class="article">
+            <img class="cover" src="cover5.jpg" alt="Cover 5">
+            <h2>Article Title 5</h2>
+            <p>Brief description of article 5...</p>
+        </div>
+        <div class="article">
+            <img class="cover" src="cover6.jpg" alt="Cover 6">
+            <h2>Article Title 6</h2>
+            <p>Brief description of article 6...</p>
+        </div>
+        <div class="article">
+            <img class="cover" src="cover7.jpg" alt="Cover 7">
+            <h2>Article Title 7</h2>
+            <p>Brief description of article 7...</p>
+        </div>
+        <div class="article">
+            <img class="cover" src="cover8.jpg" alt="Cover 8">
+            <h2>Article Title 8</h2>
+            <p>Brief description of article 8...</p>
+        </div>
+        <div class="article">
+            <img class="cover" src="cover9.jpg" alt="Cover 9">
+            <h2>Article Title 9</h2>
+            <p>Brief description of article 9...</p>
+        </div>
+        <div class="article">
+            <img class="cover" src="cover10.jpg" alt="Cover 10">
+            <h2>Article Title 10</h2>
+            <p>Brief description of article 10...</p>
+        </div>
+    </div>
+</body>
+</html>
